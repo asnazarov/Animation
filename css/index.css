@@ -1,0 +1,97 @@
+@import url("../blocks/header/header.css");
+@font-face {
+  font-family: "Inter-Black", sans-serif;
+  src: url("../fonts/Inter-Black.woff2") format("woff2"), url("../fonts/Inter-Black.woff") format("woff");
+  font-weight: 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter-Medium", sans-serif;
+  src: url("../fonts/Inter-Medium.woff2") format("woff2"), url("../fonts/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter-Regular", sans-serif;
+  src: url("../fonts/IInter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+}
+.header {
+  max-width: 1184px;
+  margin: 30px auto 48px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.header__lang {
+  display: inline-block;
+  font-size: 24px;
+  line-height: 23px;
+  font-family: "Inter-Black", sans-serif;
+  font-weight: 400;
+  color: #222a48;
+  display: flex;
+  align-items: center;
+}
+.header__lang_ru {
+  border-bottom: 2px solid transparent;
+  padding: 5px 2px 7px 3px;
+  margin: 0 0 0 18px;
+  color: #fff;
+}
+.header__lang_ru:hover {
+  border-bottom: 2px solid #fff;
+}
+.header__lang_en {
+  border-bottom: 2px solid transparent;
+  margin: 0 0 0 18px;
+  padding: 5px 2px 7px 3px;
+  color: #fff;
+}
+.header__lang_en:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.lead {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 985px;
+}
+.lead__image {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 984px;
+  max-width: 554px;
+  display: flex;
+  border: none;
+}
+.lead__image_vector {
+  position: absolute;
+  padding-top: 26px;
+}
+.lead__image_vector_line {
+  position: absolute;
+  stroke-dasharray: 2560;
+  stroke-dashoffset: 2559;
+  animation: dash 40s linear 1;
+  animation-delay: 0.1s;
+}
+@keyframes dash {
+  /*   to {
+      stroke-dashoffset: 1300;
+    } */
+  from {
+    stroke-dashoffset: 1278;
+  }
+}
+.page {
+  margin: 0;
+  padding: 0;
+  background-color: #2A2C2F;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+}

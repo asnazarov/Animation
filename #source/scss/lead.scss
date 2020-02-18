@@ -1,0 +1,65 @@
+
+.lead {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 985px;
+    &__title {
+    }
+
+    &__subtitle {
+    }
+
+    &__image {
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 984px;
+        max-width: 554px;  
+        display: flex;
+        border: none;
+        &_bg {
+        }
+        &_vector {
+            position: absolute;
+            padding-top: 26px;
+        }
+        &_vector_line{
+            position: absolute;
+            stroke-dasharray: 2560;
+            stroke-dashoffset: 2559; 
+            animation: dash 40s linear  1;
+            animation-delay: 0.1s;
+        }
+    }
+
+    &__caption {
+    }
+}
+@keyframes dash {
+    /*   to {
+        stroke-dashoffset: 1300;
+      } */
+      from {
+        stroke-dashoffset: 1278;
+      }
+      
+    }
+
+// .line-animation{
+//     stroke-dashoffset: 55;
+//     stroke-dasharray: 88;
+// }
+
+.animated {
+}
+.infinite {
+}
+.fadeInLeft {
+}
+.slower {
+}
+
+// style=" : #00ffff; animation-duration: 2s; animation-delay: 0.5s; animation-iteration-count: 1;"
+// style=" animation-duration: 3s; animation-delay: 1s; animation-iteration-count: 1;" 
+
+
+

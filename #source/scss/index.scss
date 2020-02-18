@@ -1,0 +1,29 @@
+@import'_fonts.scss';
+@import'header.scss';
+@import'lead.scss';
+@import url("../blocks/header/header.css");
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+img,
+input {
+    // border: 1px solid rgb(92, 230, 131);
+}
+
+.page {
+    margin: 0;
+    padding: 0;
+    background-color: #2A2C2F;
+}
+
+.logo {}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+}

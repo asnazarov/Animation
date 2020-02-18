@@ -1,0 +1,44 @@
+
+.header {
+    // border: 1px solid rgb(92, 230, 120);
+    max-width: 1184px;
+    margin: 30px auto 48px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+    &__lang {
+        display: inline-block;
+        font-size: 24px;
+        line-height: 23px;
+        font-family: 'Inter-Black', sans-serif, ;
+        font-weight: 400;
+        color: #222a48;
+        display: flex;
+        align-items: center;
+
+
+        &_ru {
+            border-bottom: 2px solid transparent;
+            padding: 5px 2px 7px 3px;
+            margin: 0 0 0 18px;
+            color: #fff;
+        }
+
+        &_ru:hover {
+            border-bottom: 2px solid #fff;
+
+        }
+
+        &_en {
+            border-bottom: 2px solid transparent;
+            margin: 0 0 0 18px;
+            padding: 5px 2px 7px 3px;
+            color: #fff;
+        }
+
+        &_en:hover {
+            border-bottom: 2px solid #fff;
+        }
+    }
+}
